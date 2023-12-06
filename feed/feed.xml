@@ -4,7 +4,7 @@
 	<subtitle>Noob learns things.</subtitle>
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2023-12-06T20:02:21Z</updated>
+	<updated>2023-12-06T20:43:50Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -14,7 +14,7 @@
 	<entry>
 		<title></title>
 		<link href="https://example.com/blog/week1/shared-consciousness/"/>
-		<updated>2023-12-06T20:02:21Z</updated>
+		<updated>2023-12-06T20:43:50Z</updated>
 		<id>https://example.com/blog/week1/shared-consciousness/</id>
 		<content type="html">&lt;h1 id=&quot;devlog-week-1&quot; tabindex=&quot;-1&quot;&gt;Devlog - Week 1 &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/img/BhaZpTI_ha-600.avif 600w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/img/BhaZpTI_ha-600.webp 600w&quot;&gt;&lt;img alt=&quot;DALL-E generated imaged of ICF&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/img/BhaZpTI_ha-600.png&quot; width=&quot;600&quot; height=&quot;600&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
@@ -65,8 +65,8 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Collect Data and Training Set&lt;/strong&gt;: Generate a variety of scenarios using GPT-4 to create a realistic word-based simulation. Respond to these scenarios personally to create a training set.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Fine-Tune the LLM Model&lt;/strong&gt;: Adjust the LLM to generate responses that mimic the human&#39;s (my) answers. Cross-check these with actual human data to improve performance.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Simulation Integration&lt;/strong&gt;: Choose or create a game and develop a system (possibly NLU) to translate dialog into real actions in this world. This system should also translate in-game events into dialog that the LLM can process, potentially using another fine-tuned LLM for translation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Non-Linear Interaction with Simulation&lt;/strong&gt;: Note that the simulation doesn’t need to be real-time. This flexibility allows for reduced complexity and non-linear interaction with the simulated world.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simulation Integration&lt;/strong&gt;: Choose or create a game and develop a system (possibly NLU) to translate dialog into real actions in this world. This system should also translate in-game events into dialog that the LLM can process, potentially using another fine-tuned LLM for translation.
+&lt;em&gt;Note: the simulation doesn’t need to be real-time. This flexibility allows for reduced complexity and non-linear interaction with the simulated world. Making it more akin to a movie than a game.&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Project Outcome&lt;/strong&gt;: The end goal is a system that can exist in a &amp;quot;simulated world,&amp;quot; with interaction capabilities based on the training data and programming.&lt;/li&gt;
 &lt;/ol&gt;
 </content>

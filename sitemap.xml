@@ -17,12 +17,12 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/week1/shared-consciousness/</loc>
+		<loc>https://example.com/about/</loc>
 		<lastmod>2023-12-06</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/about/</loc>
+		<loc>https://example.com/blog/week1/shared-consciousness/</loc>
 		<lastmod>2023-12-06</lastmod>
 	</url>
 </urlset>
