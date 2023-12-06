@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>we are the singularity</title>
+		<meta name="description" content="Noob learns things.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="we are the singularity">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="we are the singularity">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">we are the singularity</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1></h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-12-06">06 December 2023</time></li>
+</ul>
+
+<h1 id="devlog-week-1" tabindex="-1">Devlog - Week 1 <a class="header-anchor" href="#devlog-week-1">#</a></h1>
+<p><picture><source type="image/avif" srcset="/img/BhaZpTI_ha-1024.avif 1024w"><source type="image/webp" srcset="/img/BhaZpTI_ha-1024.webp 1024w"><img alt="DALL-E generated imaged of ICF" loading="lazy" decoding="async" src="/img/BhaZpTI_ha-1024.png" width="1024" height="1024"></picture></p>
+<h2 id="and-there-was-light" tabindex="-1">And there was light <a class="header-anchor" href="#and-there-was-light">#</a></h2>
+<p>Cringey titles aside, this is my attempt to publish something to develop the habit of blogging. There’s a project I’ve been meaning to start and I’ll use this devlog to hold myself accountable to seeing the project through. But before I talk about said project, let me first talk about myself.</p>
+<p>I’m Eduard. A Senior Software Engineer at a mattress company that happened to have an internal team to build and maintain their own e-commerce store. To be honest, I see myself as more of a glorified CRUD developer rather than a Software Engineer, let alone a senior one. I will spare the long unnecessary back story, I’m just a curious developer who wants to learn.</p>
+<h2 id="exploring-ai-and-machine-learning-through-simulating-shared-consciousness-with-personalized-language-models" tabindex="-1">Exploring AI and Machine Learning Through Simulating Shared Consciousness with Personalized Language Models <a class="header-anchor" href="#exploring-ai-and-machine-learning-through-simulating-shared-consciousness-with-personalized-language-models">#</a></h2>
+<p>As mentioned, I want to learn more AI. And I want to do this by tackling a project with hands-on practical implementation.</p>
+<h3 id="concept-overview" tabindex="-1">Concept Overview <a class="header-anchor" href="#concept-overview">#</a></h3>
+<p>This project conceptualizes consciousness as a functional 'black box' within humans, processing inputs such as environmental stimuli, emotions, and psychological states to produce discernible actions. We propose an &quot;Integrated Consciousness Framework&quot; (ICF), where consciousness can be extended and integrated with non-conscious entities, enabling the control of their actions akin to those of a conscious being.</p>
+<h3 id="core-principle" tabindex="-1">Core Principle <a class="header-anchor" href="#core-principle">#</a></h3>
+<p>In ICF, an 'Integrator' extends their consciousness to a non-conscious entity, such as a character in a game or novel. This extension enables the Integrator to define and drive the actions of these entities, effectively creating a bridge between conscious intent and non-conscious execution.</p>
+<h3 id="transient-nature-of-integration" tabindex="-1">Transient Nature of Integration <a class="header-anchor" href="#transient-nature-of-integration">#</a></h3>
+<p>The integrated consciousness persists only as long as the Integrator actively engages with the non-conscious entity. For example, a novelist imbues a character with purpose and action through writing. Similarly, a gamer instills consciousness into a game character by controlling it. The integration is suspended when the Integrator disengages, pauses, or ceases interaction, reverting the entity to a non-conscious state.</p>
+<h3 id="role-of-large-language-models-llms" tabindex="-1">Role of Large Language Models (LLMs) <a class="header-anchor" href="#role-of-large-language-models-llms">#</a></h3>
+<p>LLMs serve as facilitators in this framework, automating the integration process. By processing a wide array of inputs and producing coherent outputs, LLMs can maintain a constant state of integrated consciousness for created characters or entities. This system ensures that these entities possess an ongoing, albeit artificial, consciousness as long as they are under the LLM's operation.</p>
+<h3 id="objectives" tabindex="-1">Objectives <a class="header-anchor" href="#objectives">#</a></h3>
+<h3 id="1-learning-through-development-and-experimentation" tabindex="-1">1. Learning Through Development and Experimentation <a class="header-anchor" href="#1-learning-through-development-and-experimentation">#</a></h3>
+<ul>
+<li><strong>Goal</strong>: Utilize the project as a hands-on learning experience in AI and machine learning, focusing on the hypothesis that consciousness can be shared with non-conscious entities.</li>
+<li><strong>Method</strong>: Implement and experiment with various AI techniques and models, using the project as a practical testbed for learning.</li>
+</ul>
+<h3 id="2-data-collection-and-personalized-model-training" tabindex="-1">2. Data Collection and Personalized Model Training <a class="header-anchor" href="#2-data-collection-and-personalized-model-training">#</a></h3>
+<ul>
+<li><strong>Focus</strong>: Gather a diverse set of scenarios and responses to train a personalized language model (LLM).</li>
+<li><strong>Process</strong>: Use these responses to fine-tune the LLM, aiming to simulate decision-making processes similar to those of a human.</li>
+</ul>
+<h3 id="3-simulation-integration-and-response-analysis" tabindex="-1">3. Simulation Integration and Response Analysis <a class="header-anchor" href="#3-simulation-integration-and-response-analysis">#</a></h3>
+<ul>
+<li><strong>Aim</strong>: Integrate the trained LLM into a simulated environment (such as a game) and analyze its decision-making capabilities.</li>
+<li><strong>Strategy</strong>: Observe how the LLM's responses in the simulation align with expected human decisions, refining the model based on these insights.</li>
+</ul>
+<h3 id="4-ethical-considerations-and-responsible-ai-use" tabindex="-1">4. Ethical Considerations and Responsible AI Use <a class="header-anchor" href="#4-ethical-considerations-and-responsible-ai-use">#</a></h3>
+<ul>
+<li><strong>Responsibility</strong>: Address ethical concerns related to AI, particularly in simulating consciousness and decision-making.</li>
+<li><strong>Approach</strong>: Ensure responsible and private use of data, and reflect on the broader ethical implications of the project.</li>
+</ul>
+<h3 id="5-documenting-the-learning-journey" tabindex="-1">5. Documenting the Learning Journey <a class="header-anchor" href="#5-documenting-the-learning-journey">#</a></h3>
+<ul>
+<li><strong>Commitment</strong>: Maintain a detailed development log (devlog) throughout the project to document challenges, breakthroughs, and learning points.</li>
+<li><strong>Output</strong>: Share this documentation on the blog to provide insights into the project's progress and learnings.</li>
+</ul>
+<h3 id="7-success-metrics-knowledge-acquisition-and-practical-application" tabindex="-1">7. Success Metrics: Knowledge Acquisition and Practical Application <a class="header-anchor" href="#7-success-metrics-knowledge-acquisition-and-practical-application">#</a></h3>
+<ul>
+<li><strong>Evaluation</strong>: Measure the project's success based on the depth and breadth of AI and machine learning knowledge acquired, and the effectiveness of its practical application in the simulated environment.</li>
+</ul>
+<h3 id="steps" tabindex="-1">Steps <a class="header-anchor" href="#steps">#</a></h3>
+<ol>
+<li><strong>Collect Data and Training Set</strong>: Generate a variety of scenarios using GPT-4 to create a realistic word-based simulation. Respond to these scenarios personally to create a training set.</li>
+<li><strong>Fine-Tune the LLM Model</strong>: Adjust the LLM to generate responses that mimic the human's (my) answers. Cross-check these with actual human data to improve performance.</li>
+<li><strong>Simulation Integration</strong>: Choose or create a game and develop a system (possibly NLU) to translate dialog into real actions in this world. This system should also translate in-game events into dialog that the LLM can process, potentially using another fine-tuned LLM for translation.</li>
+<li><strong>Non-Linear Interaction with Simulation</strong>: Note that the simulation doesn’t need to be real-time. This flexibility allows for reduced complexity and non-linear interaction with the simulated world.</li>
+<li><strong>Project Outcome</strong>: The end goal is a system that can exist in a &quot;simulated world,&quot; with interaction capabilities based on the training data and programming.</li>
+</ol>
+
+
+		</main>
+
+		<footer></footer>
+
+		<!-- Current page: /blog/week1/shared-consciousness/ -->
+	</body>
+</html>

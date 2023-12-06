@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>we are the singularity</title>
+	<subtitle>Noob learns things.</subtitle>
+	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
+	<updated>2023-12-06T20:02:21Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Your Name Here</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title></title>
+		<link href="https://example.com/blog/week1/shared-consciousness/"/>
+		<updated>2023-12-06T20:02:21Z</updated>
+		<id>https://example.com/blog/week1/shared-consciousness/</id>
+		<content type="html">&lt;h1 id=&quot;devlog-week-1&quot; tabindex=&quot;-1&quot;&gt;Devlog - Week 1 &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/img/BhaZpTI_ha-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/img/BhaZpTI_ha-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;DALL-E generated imaged of ICF&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/img/BhaZpTI_ha-1024.png&quot; width=&quot;1024&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h2 id=&quot;and-there-was-light&quot; tabindex=&quot;-1&quot;&gt;And there was light &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Cringey titles aside, this is my attempt to publish something to develop the habit of blogging. There’s a project I’ve been meaning to start and I’ll use this devlog to hold myself accountable to seeing the project through. But before I talk about said project, let me first talk about myself.&lt;/p&gt;
+&lt;p&gt;I’m Eduard. A Senior Software Engineer at a mattress company that happened to have an internal team to build and maintain their own e-commerce store. To be honest, I see myself as more of a glorified CRUD developer rather than a Software Engineer, let alone a senior one. I will spare the long unnecessary back story, I’m just a curious developer who wants to learn.&lt;/p&gt;
+&lt;h2 id=&quot;exploring-ai-and-machine-learning-through-simulating-shared-consciousness-with-personalized-language-models&quot; tabindex=&quot;-1&quot;&gt;Exploring AI and Machine Learning Through Simulating Shared Consciousness with Personalized Language Models &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As mentioned, I want to learn more AI. And I want to do this by tackling a project with hands-on practical implementation.&lt;/p&gt;
+&lt;h3 id=&quot;concept-overview&quot; tabindex=&quot;-1&quot;&gt;Concept Overview &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This project conceptualizes consciousness as a functional &#39;black box&#39; within humans, processing inputs such as environmental stimuli, emotions, and psychological states to produce discernible actions. We propose an &amp;quot;Integrated Consciousness Framework&amp;quot; (ICF), where consciousness can be extended and integrated with non-conscious entities, enabling the control of their actions akin to those of a conscious being.&lt;/p&gt;
+&lt;h3 id=&quot;core-principle&quot; tabindex=&quot;-1&quot;&gt;Core Principle &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;In ICF, an &#39;Integrator&#39; extends their consciousness to a non-conscious entity, such as a character in a game or novel. This extension enables the Integrator to define and drive the actions of these entities, effectively creating a bridge between conscious intent and non-conscious execution.&lt;/p&gt;
+&lt;h3 id=&quot;transient-nature-of-integration&quot; tabindex=&quot;-1&quot;&gt;Transient Nature of Integration &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The integrated consciousness persists only as long as the Integrator actively engages with the non-conscious entity. For example, a novelist imbues a character with purpose and action through writing. Similarly, a gamer instills consciousness into a game character by controlling it. The integration is suspended when the Integrator disengages, pauses, or ceases interaction, reverting the entity to a non-conscious state.&lt;/p&gt;
+&lt;h3 id=&quot;role-of-large-language-models-llms&quot; tabindex=&quot;-1&quot;&gt;Role of Large Language Models (LLMs) &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;LLMs serve as facilitators in this framework, automating the integration process. By processing a wide array of inputs and producing coherent outputs, LLMs can maintain a constant state of integrated consciousness for created characters or entities. This system ensures that these entities possess an ongoing, albeit artificial, consciousness as long as they are under the LLM&#39;s operation.&lt;/p&gt;
+&lt;h3 id=&quot;objectives&quot; tabindex=&quot;-1&quot;&gt;Objectives &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;1-learning-through-development-and-experimentation&quot; tabindex=&quot;-1&quot;&gt;1. Learning Through Development and Experimentation &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Utilize the project as a hands-on learning experience in AI and machine learning, focusing on the hypothesis that consciousness can be shared with non-conscious entities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Method&lt;/strong&gt;: Implement and experiment with various AI techniques and models, using the project as a practical testbed for learning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;2-data-collection-and-personalized-model-training&quot; tabindex=&quot;-1&quot;&gt;2. Data Collection and Personalized Model Training &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Focus&lt;/strong&gt;: Gather a diverse set of scenarios and responses to train a personalized language model (LLM).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Process&lt;/strong&gt;: Use these responses to fine-tune the LLM, aiming to simulate decision-making processes similar to those of a human.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;3-simulation-integration-and-response-analysis&quot; tabindex=&quot;-1&quot;&gt;3. Simulation Integration and Response Analysis &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aim&lt;/strong&gt;: Integrate the trained LLM into a simulated environment (such as a game) and analyze its decision-making capabilities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategy&lt;/strong&gt;: Observe how the LLM&#39;s responses in the simulation align with expected human decisions, refining the model based on these insights.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4-ethical-considerations-and-responsible-ai-use&quot; tabindex=&quot;-1&quot;&gt;4. Ethical Considerations and Responsible AI Use &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsibility&lt;/strong&gt;: Address ethical concerns related to AI, particularly in simulating consciousness and decision-making.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Approach&lt;/strong&gt;: Ensure responsible and private use of data, and reflect on the broader ethical implications of the project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;5-documenting-the-learning-journey&quot; tabindex=&quot;-1&quot;&gt;5. Documenting the Learning Journey &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Commitment&lt;/strong&gt;: Maintain a detailed development log (devlog) throughout the project to document challenges, breakthroughs, and learning points.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt;: Share this documentation on the blog to provide insights into the project&#39;s progress and learnings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;7-success-metrics-knowledge-acquisition-and-practical-application&quot; tabindex=&quot;-1&quot;&gt;7. Success Metrics: Knowledge Acquisition and Practical Application &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation&lt;/strong&gt;: Measure the project&#39;s success based on the depth and breadth of AI and machine learning knowledge acquired, and the effectiveness of its practical application in the simulated environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;steps&quot; tabindex=&quot;-1&quot;&gt;Steps &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/week1/shared-consciousness/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Collect Data and Training Set&lt;/strong&gt;: Generate a variety of scenarios using GPT-4 to create a realistic word-based simulation. Respond to these scenarios personally to create a training set.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fine-Tune the LLM Model&lt;/strong&gt;: Adjust the LLM to generate responses that mimic the human&#39;s (my) answers. Cross-check these with actual human data to improve performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simulation Integration&lt;/strong&gt;: Choose or create a game and develop a system (possibly NLU) to translate dialog into real actions in this world. This system should also translate in-game events into dialog that the LLM can process, potentially using another fine-tuned LLM for translation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-Linear Interaction with Simulation&lt;/strong&gt;: Note that the simulation doesn’t need to be real-time. This flexibility allows for reduced complexity and non-linear interaction with the simulated world.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Outcome&lt;/strong&gt;: The end goal is a system that can exist in a &amp;quot;simulated world,&amp;quot; with interaction capabilities based on the training data and programming.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+	</entry>
+</feed>
