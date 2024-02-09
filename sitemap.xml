@@ -25,4 +25,9 @@
 		<loc>https://example.com/blog/week1/shared-consciousness/</loc>
 		<lastmod>2023-12-06</lastmod>
 	</url>
+	
+	<url>
+		<loc>https://example.com/blog/week1.5/initial-research/</loc>
+		<lastmod>2024-02-09</lastmod>
+	</url>
 </urlset>
